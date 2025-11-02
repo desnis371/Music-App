@@ -12,7 +12,36 @@ app.use(cors());
 // Serve static files from the current directory
 app.use(express.static(path.join(__dirname, '/')));
 
-// Main API endpoint to get songs from main songs folder
+// NEW: API endpoint to get albums configuration from JSON
+app.get('/api/albums', (req, res) => {
+  const configPath = path.join(__dirname, 'songs-config.json');
+  
+  console.log('Reading albums configuration from:', configPath);
+  
+  fs.readFile(configPath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading songs-config.json:', err);
+      return res.status(500).json({ 
+        error: 'Unable to read songs configuration. Make sure songs-config.json exists.',
+        albums: []
+      });
+    }
+    
+    try {
+      const config = JSON.parse(data);
+      console.log('Loaded albums configuration:', config.albums.length, 'albums');
+      res.json(config);
+    } catch (parseErr) {
+      console.error('Error parsing songs-config.json:', parseErr);
+      return res.status(500).json({ 
+        error: 'Invalid JSON format in songs-config.json',
+        albums: []
+      });
+    }
+  });
+});
+
+// Main API endpoint to get songs from main songs folder (for local files)
 app.get('/songs', (req, res) => {
   const songsDirectory = path.join(__dirname, 'songs');
   console.log('Requesting songs from main folder:', songsDirectory);
@@ -34,7 +63,7 @@ app.get('/songs', (req, res) => {
   });
 });
 
-// API endpoint to get songs from subfolders
+// API endpoint to get songs from subfolders (for local files)
 app.get('/songs/:folder', (req, res) => {
   const folderParam = req.params.folder;
   const songsDirectory = path.join(__dirname, 'songs', folderParam);
@@ -68,7 +97,7 @@ app.get('/songs/:folder', (req, res) => {
   });
 });
 
-// Get list of available folders/categories
+// Get list of available folders/categories (for local files)
 app.get('/folders', (req, res) => {
   const songsDirectory = path.join(__dirname, 'songs');
   
@@ -91,8 +120,8 @@ app.get('/folders', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
   console.log(`Available endpoints:`);
-  console.log(`- GET http://localhost:${port}/songs (main songs folder)`);
-  console.log(`- GET http://localhost:${port}/songs/cs (songs/cs folder)`);
-  console.log(`- GET http://localhost:${port}/songs/rock (songs/rock folder)`);
-  console.log(`- GET http://localhost:${port}/folders (list all folders)`);
+  console.log(`- GET http://localhost:${port}/api/albums (get albums from songs-config.json)`);
+  console.log(`- GET http://localhost:${port}/songs (main songs folder - for local files)`);
+  console.log(`- GET http://localhost:${port}/songs/cs (songs/cs folder - for local files)`);
+  console.log(`- GET http://localhost:${port}/folders (list all folders - for local files)`);
 });

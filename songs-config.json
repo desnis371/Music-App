@@ -1,0 +1,60 @@
+{
+  "albums": [
+    {
+      "id": "chill-vibes",
+      "name": "Chill Vibes",
+      "cover": "https://ia800203.us.archive.org/30/items/stopsofvariousquills_2510_librivox/variousquills_2510.jpg",
+      "songs": [
+        {
+          "title": "Beautiful Piano",
+          "artist": "SoundHelix",
+          "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+          "title": "Dragon",
+          "artist": "SoundHelix",
+          "url": "https://raw.githubusercontent.com/desnis371/songs/main/Dumb%20Ways%20to%20Die%20-%20Dumb%20Ways%20to%20Die.mp3"
+        }
+      ]
+    },
+    {
+      "id": "party-hits",
+      "name": "Party Hits 2024",
+      "cover": "resourses/covers/2.webp",
+      "songs": [
+        {
+          "title": "Imagine_Dragons_",
+          "artist": "SoundHelix",
+          "url": "https://raw.githubusercontent.com/desnis371/songs/main/Imagine_Dragons_-_Believer.mp3"
+        },
+        {
+          "title": "will I rise",
+          "artist": "SoundHelix",
+          "url": "songs/will I rise.mp3"
+        }
+      ]
+    },
+    {
+      "id": "energetic",
+      "name": "Energetic Mix",
+      "cover": "resourses/covers/3.jpg",
+      "songs": [
+        {
+          "title": "Power Track",
+          "artist": "SoundHelix",
+          "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+        },
+        {
+          "title": "Dynamic Sound",
+          "artist": "SoundHelix",
+          "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+        }
+      ]
+    }
+  ]
+}
+
+
+// Replace this part:
+// github.com   ➡️ with  raw.githubusercontent.com
+// then remove blob
