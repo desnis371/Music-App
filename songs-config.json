@@ -1,58 +1,105 @@
 {
   "albums": [
     {
-      "id": "chill-vibes",
-      "name": "Chill Vibes",
-      "cover": "https://ia800203.us.archive.org/30/items/stopsofvariousquills_2510_librivox/variousquills_2510.jpg",
+      "id": "my-favorites",
+      "name": "My Favorite Songs",
+      "cover": "resourses/covers/1.jpg",
       "songs": [
         {
-          "title": "Beautiful Piano",
-          "artist": "SoundHelix",
-          "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-        },
-        {
-          "title": "Dragon",
-          "artist": "SoundHelix",
+          "title": "Dumb ways to die",
+          "artist": "Amazing Artist",
           "url": "https://raw.githubusercontent.com/desnis371/songs/main/Dumb%20Ways%20to%20Die%20-%20Dumb%20Ways%20to%20Die.mp3"
         }
       ]
     },
     {
-      "id": "party-hits",
-      "name": "Party Hits 2024",
+      "id": "rock-collection",
+      "name": "Rock Hits",
       "cover": "resourses/covers/2.webp",
       "songs": [
         {
-          "title": "Imagine_Dragons_",
-          "artist": "SoundHelix",
+          "title": "Believer",
+          "artist": "Imagine_Dragons",
           "url": "https://raw.githubusercontent.com/desnis371/songs/main/Imagine_Dragons_-_Believer.mp3"
         },
         {
-          "title": "will I rise",
-          "artist": "SoundHelix",
-          "url": "songs/will I rise.mp3"
+          "title": "Rock Song 2",
+          "artist": "Rock Band",
+          "url": "https://example.com/rock2.mp3"
         }
       ]
     },
     {
-      "id": "energetic",
-      "name": "Energetic Mix",
-      "cover": "resourses/covers/3.jpg",
+      "id": "bizland-collection",
+      "name": "Bizland Collection",
+      "cover": "resourses/covers/4.jpeg",
       "songs": [
         {
-          "title": "Power Track",
-          "artist": "SoundHelix",
-          "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+          "title": "White Stipes",
+          "artist": "redner",
+          "url": "https://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2001%20-%20Blue%20Orchid.mp3"
         },
         {
-          "title": "Dynamic Sound",
-          "artist": "SoundHelix",
-          "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+          "title": "The Nurse",
+          "artist": "White Stipes",
+          "url": "https://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2002%20-%20The%20Nurse.mp3"
+        },
+        {
+          "title": "My Doorbell",
+          "artist": "White Stipes",
+          "url": "http://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2003%20-%20My%20Doorbell.mp3"
+        },
+        {
+          "title": "Little Ghost",
+          "artist": "White Stipes",
+          "url": "http://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2005%20-%20Little%20Ghost.mp3"
+        },
+        {
+          "title": "Forver me Satan",
+          "artist": "White Stipes",
+          "url": "http://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2004%20-%20Forever%20for%20Her%20(Is%20Over%20for%20Me).mp3"
+        },
+        {
+          "title": "The Denial Twist",
+          "artist": "White Stipes",
+          "url": "http://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2006%20-%20The%20Denial%20Twist.mp3"
+        },
+        {
+          "title": "White Moon",
+          "artist": "White Stipes",
+          "url": "http://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2007%20-%20White%20Moon.mp3"
+        },
+        {
+          "title": "Instinct Blue",
+          "artist": "White Stipes",
+          "url": "http://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2008%20-%20Instinct%20Blues.mp3"
+        },
+        {
+          "title": "Passive Manipulation",
+          "artist": "White Stipes",
+          "url": "http://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2009%20-%20Passive%20Manipulation.mp3"
+        },
+        {
+          "title": "Take Take Take",
+          "artist": "White Stipes",
+          "url": "http://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2010%20-%20Take,%20Take,%20Take.mp3"
+        },
+        {
+          "title": "As Ugly as Seem",
+          "artist": "White Stipes",
+          "url": "http://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2011%20-%20As%20Ugly%20as%20I%20Seem.mp3"
+        },
+        {
+          "title": "Red Rain",
+          "artist": "White Stipes",
+          "url": "http://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2012%20-%20Red%20Rain.mp3"
+        },
+        {
+          "title": "Im Lonely",
+          "artist": "White Stipes",
+          "url": "http://moosegatenet.bizland.com/wb_classicclubmusic.com/1001%20VINYL%20ALBUMS/1001/mp3/White%20Stripes%20-%20Get%20Behind%20Me%20Satan%20-%2013%20-%20I'm%20Lonely%20(But%20I%20Ain't%20That%20Lonely%20Yet).mp3"
         }
       ]
     }
   ]
 }
-
-
-
